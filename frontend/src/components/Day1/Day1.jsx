@@ -37,7 +37,7 @@ export default function Day1() {
                     <Link to={'/login'}>Component</Link>
                 </li>
                 <li>
-                    <a href="https://github.com/last-developer/75hardcodes/tree/master/frontend/src/components/Day1/Login">code</a>
+                    <a href="https://github.com/last-developer/75hardcodes/tree/master/frontend/src/components/Day1/Login" target='_blank'>code</a>
                 </li>
             </ul>
         </section>
