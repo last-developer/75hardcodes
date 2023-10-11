@@ -1,5 +1,5 @@
 import React from 'react';
-import './Day.css'; // Import your responsive CSS file
+import '../Day.css'; // Import your responsive CSS file
 import { Link } from 'react-router-dom';
 
 export default function Day1() {

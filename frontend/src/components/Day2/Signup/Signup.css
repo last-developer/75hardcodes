@@ -1,5 +1,5 @@
 /* Container styles */
-.login-container {
+.signup-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +8,7 @@
 }
 
 /* Form styles */
-.login-form {
+.signup-form {
     padding: 20px;
     width: 100%;
     max-width: 430px;
@@ -19,7 +19,7 @@
 }
 
 /* Header styles */
-.login-header {
+.signup-header {
     font-weight: 400;
     font-size: 24px;
     margin-bottom: 10px;
@@ -36,7 +36,7 @@ input {
 }
 
 /* Button styles */
-.login-button {
+.signup-button {
     margin-top: 10px;
     background-color: #000000;
     color: #fff;
@@ -47,26 +47,27 @@ input {
     cursor: pointer;
 }
 
-.login-button:hover {
+.signup-button:hover {
     box-shadow: 1px 1px 5px gray;
 }
 
 /* Links styles */
-.login-links {
+.signup-links {
     margin-top: 20px;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: flex-end;
 }
 
-.login-links a {
+.signup-links a {
     cursor: pointer;
     text-decoration: underline;
 }
 
 @media (max-width:450px) {
-    .login-links {
+    .signup-links {
         flex-direction: column;
         align-items: flex-start;
         gap: 5px;
