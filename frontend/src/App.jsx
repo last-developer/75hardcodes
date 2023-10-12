@@ -9,6 +9,8 @@ import Signup from './components/Day2/Signup/Signup';
 import ForgotPassword from './components/Day2/ForgotPassword';
 import PasswordResetConfirmation from './components/Day2/PasswordResetConfirmation';
 import Day2 from './components/Day2/Day2';
+import FeedbackForm from './components/Day3/FeedbackForm/FeedbackForm';
+import Day3 from './components/Day3/Day3';
 
 function App() {
 
@@ -30,7 +32,13 @@ function App() {
           <Route path="password-reset-confirmation" element={<PasswordResetConfirmation />} />
 
           {/* Day3-- */}
+          <Route path="day3" element={<Day3 />} />
+          <Route path="feedback" element={<FeedbackForm />} />
 
+          {/* Day4-- */}
+
+
+          
           <Route path="*" element={<NoPage />} />
         </Routes>
       </BrowserRouter>

@@ -12,7 +12,10 @@ const Home = () => {
         <li>
           <Link to="/day2">Day 2: Signup & Reset Password Component</Link>
         </li>
-        
+        <li>
+          <Link to="/day3">Day 3: Feedback Form Component</Link>
+        </li>
+
       </ul>
 
     </section>
