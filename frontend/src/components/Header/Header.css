@@ -5,7 +5,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000;
+    z-index: 100;
     background-color: rgb(0, 0, 0);
 }
 
@@ -43,7 +43,7 @@ header nav ul {
 
 @media (max-width:768px) {
     header {
-        padding: 1rem 3%;
+        padding: .8rem 3%;
     }
 }
 
@@ -52,7 +52,9 @@ header nav ul {
         font-size: 3.5vmax;
     }
 
-   
+    #about-button {
+        font-size: 14px;
+    }
 }
 
 @media (max-width:375px) {

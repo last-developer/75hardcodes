@@ -11,6 +11,8 @@ import PasswordResetConfirmation from './components/Day2/PasswordResetConfirmati
 import Day2 from './components/Day2/Day2';
 import FeedbackForm from './components/Day3/FeedbackForm/FeedbackForm';
 import Day3 from './components/Day3/Day3';
+import AppHeader from './components/Day4/Header/AppHeader';
+import Day4 from './components/Day4/Day4';
 
 function App() {
 
@@ -36,6 +38,8 @@ function App() {
           <Route path="feedback" element={<FeedbackForm />} />
 
           {/* Day4-- */}
+          <Route path="day4" element={<Day4 />} />
+          <Route path="appheader" element={<AppHeader />}/>
 
 
           

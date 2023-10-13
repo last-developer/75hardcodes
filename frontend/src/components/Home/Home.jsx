@@ -15,6 +15,9 @@ const Home = () => {
         <li>
           <Link to="/day3">Day 3: Feedback Form Component</Link>
         </li>
+        <li>
+          <Link to="/day4">Day 4: Header with Responsive Menu</Link>
+        </li>
 
       </ul>
 
