@@ -18,11 +18,12 @@ const Home = () => {
         <li>
           <Link to="/day4">Day 4: Header with Responsive Menu</Link>
         </li>
-
+        <li>
+          <Link to="/day5">Day 5: Building a Responsive Footer</Link>
+        </li>
       </ul>
-
     </section>
   )
 }
 
-export default Home
+export default Home;

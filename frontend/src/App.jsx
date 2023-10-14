@@ -13,6 +13,8 @@ import FeedbackForm from './components/Day3/FeedbackForm/FeedbackForm';
 import Day3 from './components/Day3/Day3';
 import AppHeader from './components/Day4/Header/AppHeader';
 import Day4 from './components/Day4/Day4';
+import Footer from './components/Day5/Footer';
+import Day5 from './components/Day5/Day5';
 
 function App() {
 
@@ -41,7 +43,8 @@ function App() {
           <Route path="day4" element={<Day4 />} />
           <Route path="appheader" element={<AppHeader />}/>
 
-
+          {/* Day5-- */}
+          <Route path="day5" element={<Day5 />} />
           
           <Route path="*" element={<NoPage />} />
         </Routes>
