@@ -21,6 +21,9 @@ const Home = () => {
         <li>
           <Link to="/day5">Day 5: Building a Responsive Footer</Link>
         </li>
+        <li>
+          <Link to="/day6">Day 6: Contact Us Form</Link>
+        </li>
       </ul>
     </section>
   )
