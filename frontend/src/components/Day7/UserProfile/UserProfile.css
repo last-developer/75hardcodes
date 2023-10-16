@@ -1,0 +1,47 @@
+.user-profile-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.user-profile-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.user-profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-profile-edit input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.user-profile-edit button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.user-profile-info button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.user-profile-info button:hover {
+    transition: all .3s;
+    letter-spacing: 1px;
+}

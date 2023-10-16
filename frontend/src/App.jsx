@@ -16,6 +16,8 @@ import Day4 from './components/Day4/Day4';
 import Day5 from './components/Day5/Day5';
 import ContactUs from './components/Day6/ContactUs/ContactUs';
 import Day6 from './components/Day6/Day6';
+import UserProfile from './components/Day7/UserProfile/UserProfile';
+import Day7 from './components/Day7/Day7';
 
 function App() {
 
@@ -50,6 +52,10 @@ function App() {
           {/* Day6-- */}
           <Route path="day6" element={<Day6 />} />
           <Route path="contactus" element={<ContactUs/>} />
+
+          {/* Day7-- */}
+          <Route path="day7" element={<Day7 />} />
+          <Route path="userprofile" element={<UserProfile/>} />
 
           
           <Route path="*" element={<NoPage />} />
