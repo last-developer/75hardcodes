@@ -18,6 +18,7 @@ import ContactUs from './components/Day6/ContactUs/ContactUs';
 import Day6 from './components/Day6/Day6';
 import UserProfile from './components/Day7/UserProfile/UserProfile';
 import Day7 from './components/Day7/Day7';
+import Day8 from './components/Day8/Day8';
 
 function App() {
 
@@ -56,6 +57,9 @@ function App() {
           {/* Day7-- */}
           <Route path="day7" element={<Day7 />} />
           <Route path="userprofile" element={<UserProfile/>} />
+          
+          {/* Day8-- */}
+          <Route path="day8" element={<Day8 />} />
 
           
           <Route path="*" element={<NoPage />} />

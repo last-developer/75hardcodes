@@ -10,8 +10,20 @@
     justify-content: center;
     gap: 20px;
 }
-
+.profile-picture-edit-icon{
+    position: relative;
+    top: -91px;
+    left: 45%;
+display: inline;   
+    /* display: inline-block; */
+}
 .user-profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.user-profile-picture-edit img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -39,9 +51,21 @@
     border: none;
     cursor: pointer;
     border-radius: 20px;
+    margin-bottom: .5rem;
 }
 
 .user-profile-info button:hover {
     transition: all .3s;
     letter-spacing: 1px;
+}
+
+@media screen and (max-width:550px) {
+    .user-profile-picture-edit img {
+        width: 250px;
+    }
+}
+@media screen and (max-width:375px) {
+    .user-profile-picture-edit img {
+        width: 350px;
+    }
 }

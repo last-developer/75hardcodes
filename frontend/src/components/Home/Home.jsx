@@ -27,6 +27,9 @@ const Home = () => {
         <li>
           <Link to="/day7">Day 7: User Profile Component</Link>
         </li>
+        <li>
+          <Link to="/day8">Day 8: Update User Profile</Link>
+        </li>
       </ul>
     </section>
   )
