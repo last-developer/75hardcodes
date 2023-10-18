@@ -19,16 +19,22 @@ import Day6 from './components/Day6/Day6';
 import UserProfile from './components/Day7/UserProfile/UserProfile';
 import Day7 from './components/Day7/Day7';
 import Day8 from './components/Day8/Day8';
+import Day9 from './components/Day9/Day9';
+import { ToastContainer } from 'react-toastify';
+import NotificationTemplate from './components/Day9/NotificationTemplate';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
 
   return (
     <>
+      <ToastContainer theme="dark" position="top-right" autoClose={3000} />
+
       <BrowserRouter>
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          
+
           {/* Day1-- */}
           <Route path="/day1" element={<Day1 />} />
           <Route path="login" element={<Login />} />
@@ -45,23 +51,27 @@ function App() {
 
           {/* Day4-- */}
           <Route path="day4" element={<Day4 />} />
-          <Route path="appheader" element={<AppHeader />}/>
+          <Route path="appheader" element={<AppHeader />} />
 
           {/* Day5-- */}
           <Route path="day5" element={<Day5 />} />
 
           {/* Day6-- */}
           <Route path="day6" element={<Day6 />} />
-          <Route path="contactus" element={<ContactUs/>} />
+          <Route path="contactus" element={<ContactUs />} />
 
           {/* Day7-- */}
           <Route path="day7" element={<Day7 />} />
-          <Route path="userprofile" element={<UserProfile/>} />
-          
+          <Route path="userprofile" element={<UserProfile />} />
+
           {/* Day8-- */}
           <Route path="day8" element={<Day8 />} />
 
-          
+          {/* Day9-- */}
+          <Route path="day9" element={<Day9 />} />
+          <Route path="notification" element={<NotificationTemplate />} />
+
+
           <Route path="*" element={<NoPage />} />
         </Routes>
       </BrowserRouter>

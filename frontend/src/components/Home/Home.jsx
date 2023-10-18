@@ -30,6 +30,9 @@ const Home = () => {
         <li>
           <Link to="/day8">Day 8: Update User Profile</Link>
         </li>
+        <li>
+          <Link to="/day9">Day 9: Notification with react-toastify</Link>
+        </li>
       </ul>
     </section>
   )
