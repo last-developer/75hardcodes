@@ -16,9 +16,9 @@ app.use(cors(corsOptions));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// const user = require('./routes/userRoute');
+const user = require('./routes/userRoute');
 
-// app.use('/api/user', user)
+app.use('/api/user', user)
 
 app.get('/', (req, res) => {
     res.send('im fine')

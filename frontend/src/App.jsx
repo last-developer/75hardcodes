@@ -23,6 +23,7 @@ import Day9 from './components/Day9/Day9';
 import { ToastContainer } from 'react-toastify';
 import NotificationTemplate from './components/Day9/NotificationTemplate';
 import 'react-toastify/dist/ReactToastify.css';
+import Day10 from './components/Day10/Day10';
 
 function App() {
 
@@ -71,6 +72,9 @@ function App() {
           <Route path="day9" element={<Day9 />} />
           <Route path="notification" element={<NotificationTemplate />} />
 
+          {/* Day10-- */}
+          <Route path="day10" element={<Day10 />} />
+          
 
           <Route path="*" element={<NoPage />} />
         </Routes>

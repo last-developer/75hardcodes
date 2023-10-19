@@ -25,6 +25,7 @@ export default function NotificationTemplate() {
             draggable: true,
         });
     };
+
     return (
         <section>
             <h1>Day 9: Notification with react-toastify</h1>
