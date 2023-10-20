@@ -24,6 +24,8 @@ import { ToastContainer } from 'react-toastify';
 import NotificationTemplate from './components/Day9/NotificationTemplate';
 import 'react-toastify/dist/ReactToastify.css';
 import Day10 from './components/Day10/Day10';
+import FAQ from './components/Day11/FAQ/FAQ';
+import Day11 from './components/Day11/Day11';
 
 function App() {
 
@@ -74,7 +76,11 @@ function App() {
 
           {/* Day10-- */}
           <Route path="day10" element={<Day10 />} />
-          
+
+          {/* Day11-- */}
+          <Route path="day11" element={<Day11 />} />
+          <Route path="faq" element={<FAQ />} />
+
 
           <Route path="*" element={<NoPage />} />
         </Routes>
