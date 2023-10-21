@@ -1,4 +1,3 @@
-import './App.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './components/Home/Home';
 import Login from './components/Day1/Login/Login';
@@ -26,6 +25,8 @@ import 'react-toastify/dist/ReactToastify.css';
 import Day10 from './components/Day10/Day10';
 import FAQ from './components/Day11/FAQ/FAQ';
 import Day11 from './components/Day11/Day11';
+import Pricing from './components/Day12/Pricing/Pricing';
+import Day12 from './components/Day12/Day12';
 
 function App() {
 
@@ -80,6 +81,10 @@ function App() {
           {/* Day11-- */}
           <Route path="day11" element={<Day11 />} />
           <Route path="faq" element={<FAQ />} />
+
+          {/* Day11-- */}
+          <Route path="day12" element={<Day12 />} />
+          <Route path="pricing" element={<Pricing />} />
 
 
           <Route path="*" element={<NoPage />} />

@@ -19,6 +19,8 @@
 /* Paragraph styles */
 .day-container p {
     margin-bottom: 20px;
+    border: none;
+    padding: 0;
 }
 
 /* List item styles */

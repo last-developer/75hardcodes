@@ -39,6 +39,9 @@ const Home = () => {
         <li>
           <Link to="/day11">Day 11: Implement FAQ Component</Link>
         </li>
+        <li>
+          <Link to="/day12">Day 12: Pricing Plans</Link>
+        </li>
       </ul>
     </section>
   )

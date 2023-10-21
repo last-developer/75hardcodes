@@ -77,6 +77,16 @@ video {
   transition: background-color 0.5s, color 0.5s;
 }
 
+.pricingbtn{
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+}
+
+.pricingbtn:hover{
+  border: 1px solid white;
+  color: white;
+}
 /* global media queries ---- */
 @media (max-width:768px) {
   .globalbtn {
