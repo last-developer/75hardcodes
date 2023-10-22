@@ -42,6 +42,9 @@ const Home = () => {
         <li>
           <Link to="/day12">Day 12: Pricing Plans</Link>
         </li>
+        <li>
+          <Link to="/day13">Day 13: Building a Comment System</Link>
+        </li>
       </ul>
     </section>
   )

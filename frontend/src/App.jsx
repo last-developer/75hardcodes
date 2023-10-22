@@ -27,6 +27,8 @@ import FAQ from './components/Day11/FAQ/FAQ';
 import Day11 from './components/Day11/Day11';
 import Pricing from './components/Day12/Pricing/Pricing';
 import Day12 from './components/Day12/Day12';
+import CommentSystem from "./components/Day13/commentSystem/CommentSystem";
+import Day13 from "./components/Day13/Day13";
 
 function App() {
 
@@ -82,9 +84,13 @@ function App() {
           <Route path="day11" element={<Day11 />} />
           <Route path="faq" element={<FAQ />} />
 
-          {/* Day11-- */}
+          {/* Day12-- */}
           <Route path="day12" element={<Day12 />} />
           <Route path="pricing" element={<Pricing />} />
+
+          {/* Day13-- */}
+          <Route path="day13" element={<Day13 />} />
+          <Route path="comment" element={<CommentSystem />} />
 
 
           <Route path="*" element={<NoPage />} />
