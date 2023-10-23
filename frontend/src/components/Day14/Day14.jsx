@@ -25,7 +25,7 @@ export default function Day14() {
                     <Link to={'/productdetails'}>Visit Product Details Component</Link>
                 </li>
                 <li>
-                    <a href="https://github.com/your-username/your-repo/tree/master/frontend/src/components/Day14" target="_blank">
+                    <a href="https://github.com/last-developer/75hardcodes/tree/master/frontend/src/components/Day14/ProductDetails" target="_blank">
                         View Code on GitHub
                     </a>
                 </li>
