@@ -1,0 +1,59 @@
+/* Default styles for product container */
+.product-container {
+    display: flex;
+    max-width: 100%;
+}
+
+/* Style for product image */
+.product-image {
+    max-width: 100%;
+    max-height: 200px; 
+    object-fit: cover;
+}
+
+/* Style for product details */
+.product-details {
+    padding: 20px;
+    padding-top: 0;
+    flex: 1;
+}
+
+/* Style for product name */
+.product-name {
+    font-size: 24px;
+}
+
+/* Style for product description */
+.product-description {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Style for product price */
+.product-price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Style for product rating and reviews */
+.product-rating {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+/* Media query for smaller screens (adjust breakpoints as needed) */
+@media screen and (max-width: 768px) {
+    .product-container {
+        flex-direction: column;
+    }
+
+    .product-details {
+        padding: 10px;
+        padding-left: 0;
+    }
+
+    .product-image {
+        max-height: 250px;
+    }
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Pricing.css'; // Import your responsive CSS file
+import './Pricing.css';
 import { Link } from 'react-router-dom';
 
 export default function Pricing() {
@@ -16,12 +16,10 @@ export default function Pricing() {
                             <li>Limited storage</li>
                             <li>Only Chat support</li>
                         </ul>
-                       
-                       <div className="globalbtn pricingbtn">
-                         <Link to='/login'>
-                        Login
+
+                        <Link to='/login' className="globalbtn pricingbtn">
+                            Login
                         </Link>
-                       </div>
                     </div>
                     <div className="plan">
                         <h3>Basic Plan</h3>
@@ -31,11 +29,10 @@ export default function Pricing() {
                             <li>Limited premium support</li>
                             <li>24/7 customer support</li>
                         </ul>
-                        <div className="globalbtn pricingbtn">
-                         <Link to='/login'>
-                        Buy at 18$/month
+
+                        <Link to='/login' className="globalbtn pricingbtn">
+                            Buy at 18$/month
                         </Link>
-                       </div>
                     </div>
                     <div className="plan">
                         <h3>Premium Plan</h3>
@@ -47,11 +44,10 @@ export default function Pricing() {
                             <li>24/7 customer support</li>
                             <li>Priority access to new features</li>
                         </ul>
-                        <div className="globalbtn pricingbtn">
-                         <Link to='/login'>
-                        Buy at 80$/month
+
+                        <Link to='/login' className="globalbtn pricingbtn">
+                            Buy at 80$/month
                         </Link>
-                       </div>
                     </div>
                 </div>
 
