@@ -1,13 +1,16 @@
 /* Default styles for product container */
 .product-container {
-    display: flex;
     max-width: 100%;
+}
+
+.product-container>div {
+    display: flex;
 }
 
 /* Style for product image */
 .product-image {
     max-width: 100%;
-    max-height: 200px; 
+    max-height: 200px;
     object-fit: cover;
 }
 
@@ -42,9 +45,25 @@
     font-size: 16px;
 }
 
+.product-reviews {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-reviews input,
+.product-reviews select,
+.product-reviews textarea,
+.product-reviews button {
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
 /* Media query for smaller screens (adjust breakpoints as needed) */
 @media screen and (max-width: 768px) {
-    .product-container {
+    .product-container>div {
         flex-direction: column;
     }
 

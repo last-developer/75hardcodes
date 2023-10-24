@@ -31,6 +31,7 @@ import CommentSystem from "./components/Day13/commentSystem/CommentSystem";
 import Day13 from "./components/Day13/Day13";
 import ProductDetails from "./components/Day14/ProductDetails/ProductDetails";
 import Day14 from "./components/Day14/Day14";
+import Day15 from "./components/Day15/Day15";
 
 function App() {
 
@@ -98,6 +99,9 @@ function App() {
           <Route path="day14" element={<Day14 />} />
           <Route path="productdetails" element={<ProductDetails />} />
 
+          {/* Day15-- */}
+          <Route path="day15" element={<Day15 />} />
+          
 
           <Route path="*" element={<NoPage />} />
         </Routes>
