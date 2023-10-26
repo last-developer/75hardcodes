@@ -54,6 +54,9 @@ const Home = () => {
         <li>
           <Link to="/day16">Day 16: Writing Routes in Your React App</Link>
         </li>
+        <li>
+          <Link to="/day17">Day 17: Integrating Stripe for Payments</Link>
+        </li>
       </ul>
     </section>
   )

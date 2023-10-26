@@ -17,8 +17,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 const user = require('./routes/userRoute');
+const payment = require('./routes/paymentRoute');
 
-app.use('/api/user', user)
+app.use('/api/payment', payment)
 
 app.get('/', (req, res) => {
     res.send('im fine')
