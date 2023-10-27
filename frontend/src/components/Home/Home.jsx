@@ -57,6 +57,9 @@ const Home = () => {
         <li>
           <Link to="/day17">Day 17: Integrating Stripe for Payments</Link>
         </li>
+        <li>
+          <Link to="/day18">Day 18: My Orders Component</Link>
+        </li>
       </ul>
     </section>
   )
