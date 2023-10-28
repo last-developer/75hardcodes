@@ -2,7 +2,8 @@ import React, { useState, useCallback } from 'react';
 import Cropper from 'react-easy-crop';
 // import Slider from '@material-ui/core/Slider';
 import getCroppedImg from './cropImage';
-import { Button,Slider } from '@mui/material/Button';
+import  Button  from '@mui/material/Button';
+import Slider  from '@mui/material/Slider';
 // import { Button } from '@material-ui/core';
 
 const ImageUploader = () => {
