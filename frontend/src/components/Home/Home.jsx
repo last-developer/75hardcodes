@@ -60,6 +60,9 @@ const Home = () => {
         <li>
           <Link to="/day18">Day 18: My Orders Component</Link>
         </li>
+        <li>
+          <Link to="/day19">Day 19: Image Uploader with Cropping Functionality</Link>
+        </li>
       </ul>
     </section>
   )

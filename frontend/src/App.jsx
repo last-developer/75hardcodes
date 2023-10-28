@@ -37,6 +37,8 @@ import Day17 from "./components/Day17/Day17";
 import Payment from "./components/Day17/Payment";
 import Day18 from "./components/Day18/Day18";
 import MyOrders from "./components/Day18/MyOrders";
+import ImageUploader from "./components/Day19/ImageUploader/ImageUploader";
+import Day19 from "./components/Day19/Day19";
 
 function App() {
 
@@ -117,6 +119,10 @@ function App() {
           {/* Day18-- */}
           <Route path="day18" element={<Day18 />} />
           <Route path="myorders" element={<MyOrders />} />
+
+          {/* Day19-- */}
+          <Route path="day19" element={<Day19 />} />
+          <Route path="imageuploader" element={<ImageUploader/>} />
           
 
           <Route path="*" element={<NoPage />} />
