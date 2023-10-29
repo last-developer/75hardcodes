@@ -63,6 +63,9 @@ const Home = () => {
         <li>
           <Link to="/day19">Day 19: Image Uploader with Cropping Functionality</Link>
         </li>
+        <li>
+          <Link to="/day20">Day 20: Dynamic Search Component</Link>
+        </li>
       </ul>
     </section>
   )

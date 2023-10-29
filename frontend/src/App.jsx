@@ -39,6 +39,8 @@ import Day18 from "./components/Day18/Day18";
 import MyOrders from "./components/Day18/MyOrders";
 import ImageUploader from "./components/Day19/ImageUploader/ImageUploader";
 import Day19 from "./components/Day19/Day19";
+import Search from "./components/Day20/Search/Search";
+import Day20 from "./components/Day20/Day20";
 
 function App() {
 
@@ -123,6 +125,10 @@ function App() {
           {/* Day19-- */}
           <Route path="day19" element={<Day19 />} />
           <Route path="imageuploader" element={<ImageUploader/>} />
+          
+          {/* Day20-- */}
+          <Route path="day20" element={<Day20 />} />
+          <Route path="search" element={<Search/>} />
           
 
           <Route path="*" element={<NoPage />} />
