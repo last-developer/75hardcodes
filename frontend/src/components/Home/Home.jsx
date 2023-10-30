@@ -66,6 +66,9 @@ const Home = () => {
         <li>
           <Link to="/day20">Day 20: Dynamic Search Component</Link>
         </li>
+        <li>
+          <Link to="/day21">Day 21: Pagination Component</Link>
+        </li>
       </ul>
     </section>
   )
