@@ -45,6 +45,8 @@ import Pagination from "./components/Day21/Pagination/Pagination";
 import Day21 from "./components/Day21/Day21";
 import Day22 from "./components/Day22/Day22";
 import BackendPagination from "./components/Day22/BackendPagination/BackendPagination";
+import Day23 from "./components/Day23/Day23";
+import DateTimePicker from "./components/Day23/Pickers/DateTimePicker";
 
 function App() {
 
@@ -141,6 +143,10 @@ function App() {
           {/* Day22-- */}
           <Route path="day22" element={<Day22 />} />
           <Route path="backendpagination" element={<BackendPagination/>} />
+
+          {/* Day23-- */}
+          <Route path="day23" element={<Day23 />} />
+          <Route path="datetimepicker" element={<DateTimePicker/>} />
           
 
           <Route path="*" element={<NoPage />} />
