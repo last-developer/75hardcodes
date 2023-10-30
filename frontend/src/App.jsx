@@ -49,6 +49,8 @@ import Day23 from "./components/Day23/Day23";
 import DateTimePicker from "./components/Day23/Pickers/DateTimePicker";
 import DragDrop from "./components/Day24/DragDrop/DragDrop";
 import Day24 from "./components/Day24/Day24";
+import FileDropzone from "./components/Day25/FileDropZone/FileDropZone";
+import Day25 from "./components/Day25/Day25";
 
 function App() {
 
@@ -153,6 +155,14 @@ function App() {
           {/* Day24-- */}
           <Route path="day24" element={<Day24 />} />
           <Route path="dragdrop" element={<DragDrop/>} />
+
+          {/* Day24-- */}
+          <Route path="day24" element={<Day24 />} />
+          <Route path="filedropzone" element={<FileDropzone/>} />
+
+          {/* Day25-- */}
+          <Route path="day25" element={<Day25 />} />
+          <Route path="filedropzone" element={<FileDropzone/>} />
           
 
           <Route path="*" element={<NoPage />} />

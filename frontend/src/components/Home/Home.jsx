@@ -78,6 +78,9 @@ const Home = () => {
         <li>
           <Link to="/day24">Day 24: Drag & Drop List Reordering</Link>
         </li>
+        <li>
+          <Link to="/day25">Day 25: File Dropzone Component</Link>
+        </li>
       </ul>
     </section>
   )
