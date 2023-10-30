@@ -18,8 +18,10 @@ app.use(express.urlencoded({ extended: true }));
 
 const user = require('./routes/userRoute');
 const payment = require('./routes/paymentRoute');
+const product = require('./routes/productRoute');
 
 app.use('/api/payment', payment)
+app.use('/api/product', product)
 
 app.get('/', (req, res) => {
     res.send('im fine')

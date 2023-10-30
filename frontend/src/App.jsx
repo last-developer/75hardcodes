@@ -43,6 +43,8 @@ import Search from "./components/Day20/Search/Search";
 import Day20 from "./components/Day20/Day20";
 import Pagination from "./components/Day21/Pagination/Pagination";
 import Day21 from "./components/Day21/Day21";
+import Day22 from "./components/Day22/Day22";
+import BackendPagination from "./components/Day22/BackendPagination/BackendPagination";
 
 function App() {
 
@@ -135,6 +137,10 @@ function App() {
           {/* Day21-- */}
           <Route path="day21" element={<Day21 />} />
           <Route path="pagination" element={<Pagination/>} />
+
+          {/* Day22-- */}
+          <Route path="day22" element={<Day22 />} />
+          <Route path="backendpagination" element={<BackendPagination/>} />
           
 
           <Route path="*" element={<NoPage />} />
