@@ -75,6 +75,9 @@ const Home = () => {
         <li>
           <Link to="/day23">Day 23: Date & Time Picker</Link>
         </li>
+        <li>
+          <Link to="/day24">Day 24: Drag & Drop List Reordering</Link>
+        </li>
       </ul>
     </section>
   )
