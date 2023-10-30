@@ -2,14 +2,13 @@ import React from 'react';
 import { Elements, CardElement, useStripe, useElements } from '@stripe/react-stripe-js';
 import { loadStripe } from '@stripe/stripe-js';
 import axios from 'axios'; // Add Axios for server communication
+import baseUrl from '../../baseUrl';
 
 const stripePromise = loadStripe('pk_test_51NNZZDSEFCFyra1SNSyMBOetGUzcgy2NNbCTnr0wRn9JgB9R577o2Xa9JRU1NBb3f3R61tELnPDRResL4aG1OQrM00XSzKB9js');
 
 const PaymentForm = () => {
   const stripe = useStripe();
   const elements = useElements();
-
-
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -20,7 +19,7 @@ const PaymentForm = () => {
 
     // Create a PaymentIntent on your server
     try {
-      const response = await axios.post('http://localhost:3000/api/payment/create', {
+      const response = await axios.post(`${baseUrl}/payment/create`, {
         amount: 1000, // Provide the amount in cents
         currency: 'inr',
       });

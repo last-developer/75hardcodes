@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { handleApiError, handleApiSuccess } from '../../reactToastiify';
 import './Day10.css'
+import baseUrl from '../../baseUrl';
 
 export default function Day10() {
     const [inputValue, setInputValue] = useState('');
@@ -9,7 +10,7 @@ export default function Day10() {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        axios.post('http://localhost:3000/api/user/checkInput', { value: inputValue })
+        axios.post(`${baseUrl}/user/checkInput`, { value: inputValue })
             .then((response) => {
                 const successMessage = response.data.message;
                 handleApiSuccess(successMessage);

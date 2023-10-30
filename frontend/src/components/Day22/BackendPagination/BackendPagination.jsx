@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useState, useEffect } from 'react';
 import '../../Day21/Pagination/Pagination.css'
+import baseUrl from '../../../baseUrl';
 
 export default function BackendPagination() {
     const [products, setProducts] = useState([]);
@@ -8,7 +9,7 @@ export default function BackendPagination() {
     const [totalPages, setTotalPages] = useState(0);
 
     useEffect(() => {
-        axios.get(`http://localhost:3000/api/product/getproducts?page=${currentPage}`)
+        axios.get(`${baseUrl}/product/getproducts?page=${currentPage}`)
             .then(response => {
                 setProducts(response.data.products);
                 setTotalPages(response.data.totalPages);
