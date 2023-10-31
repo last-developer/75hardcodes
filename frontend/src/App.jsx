@@ -156,10 +156,6 @@ function App() {
           <Route path="day24" element={<Day24 />} />
           <Route path="dragdrop" element={<DragDrop/>} />
 
-          {/* Day24-- */}
-          <Route path="day24" element={<Day24 />} />
-          <Route path="filedropzone" element={<FileDropzone/>} />
-
           {/* Day25-- */}
           <Route path="day25" element={<Day25 />} />
           <Route path="filedropzone" element={<FileDropzone/>} />
