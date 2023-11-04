@@ -51,6 +51,8 @@ import DragDrop from "./components/Day24/DragDrop/DragDrop";
 import Day24 from "./components/Day24/Day24";
 import FileDropzone from "./components/Day25/FileDropZone/FileDropZone";
 import Day25 from "./components/Day25/Day25";
+import CustomizableDashboard from "./components/Day26/CustomizableDashboard/CustomizableDashboard";
+import Day26 from "./components/Day26/Day26";
 
 function App() {
 
@@ -159,6 +161,10 @@ function App() {
           {/* Day25-- */}
           <Route path="day25" element={<Day25 />} />
           <Route path="filedropzone" element={<FileDropzone/>} />
+
+          {/* Day26-- */}
+          <Route path="day26" element={<Day26 />} />
+          <Route path="customizabledashboard" element={<CustomizableDashboard/>} />
           
 
           <Route path="*" element={<NoPage />} />

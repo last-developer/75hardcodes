@@ -81,6 +81,9 @@ const Home = () => {
         <li>
           <Link to="/day25">Day 25: File Dropzone Component</Link>
         </li>
+        <li>
+          <Link to="/day26">Day 26: Interactive Dashboard with Real Charts</Link>
+        </li>
       </ul>
     </section>
   )

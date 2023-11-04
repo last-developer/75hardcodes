@@ -1,0 +1,36 @@
+.widget {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 0;
+}
+
+.welcome-widget,
+.chart-widget,
+.todo-widget,
+.calendar-widget,
+.news-widget {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.welcome-widget h3,
+.chart-widget h3,
+.todo-widget h3,
+.calendar-widget h3,
+.news-widget h3 {
+    margin: 0;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.todo-widget ul li,
+.news-widget ul li {
+    margin-bottom: 5px;
+}
+
