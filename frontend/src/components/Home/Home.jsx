@@ -84,6 +84,9 @@ const Home = () => {
         <li>
           <Link to="/day26">Day 26: Interactive Dashboard with Real Charts</Link>
         </li>
+        <li>
+          <Link to="/day27">Day 27: Custom Weather Widget</Link>
+        </li>
       </ul>
     </section>
   )
