@@ -55,6 +55,7 @@ import CustomizableDashboard from "./components/Day26/CustomizableDashboard/Cust
 import Day26 from "./components/Day26/Day26";
 import WeatherWidget from "./components/Day27/WeatherWidget/WeatherWidget";
 import Day27 from "./components/Day27/Day27";
+import Day28 from "./components/Day28/Day28";
 
 function App() {
 
@@ -127,7 +128,7 @@ function App() {
 
           {/* Day16-- */}
           <Route path="day16" element={<Day16 />} />
-          
+
           {/* Day17-- */}
           <Route path="day17" element={<Day17 />} />
           <Route path="payment" element={<Payment />} />
@@ -138,40 +139,42 @@ function App() {
 
           {/* Day19-- */}
           <Route path="day19" element={<Day19 />} />
-          <Route path="imageuploader" element={<ImageUploader/>} />
-          
+          <Route path="imageuploader" element={<ImageUploader />} />
+
           {/* Day20-- */}
           <Route path="day20" element={<Day20 />} />
-          <Route path="search" element={<Search/>} />
+          <Route path="search" element={<Search />} />
 
           {/* Day21-- */}
           <Route path="day21" element={<Day21 />} />
-          <Route path="pagination" element={<Pagination/>} />
+          <Route path="pagination" element={<Pagination />} />
 
           {/* Day22-- */}
           <Route path="day22" element={<Day22 />} />
-          <Route path="backendpagination" element={<BackendPagination/>} />
+          <Route path="backendpagination" element={<BackendPagination />} />
 
           {/* Day23-- */}
           <Route path="day23" element={<Day23 />} />
-          <Route path="datetimepicker" element={<DateTimePicker/>} />
+          <Route path="datetimepicker" element={<DateTimePicker />} />
 
           {/* Day24-- */}
           <Route path="day24" element={<Day24 />} />
-          <Route path="dragdrop" element={<DragDrop/>} />
+          <Route path="dragdrop" element={<DragDrop />} />
 
           {/* Day25-- */}
           <Route path="day25" element={<Day25 />} />
-          <Route path="filedropzone" element={<FileDropzone/>} />
+          <Route path="filedropzone" element={<FileDropzone />} />
 
           {/* Day26-- */}
           <Route path="day26" element={<Day26 />} />
-          <Route path="customizabledashboard" element={<CustomizableDashboard/>} />
+          <Route path="customizabledashboard" element={<CustomizableDashboard />} />
 
           {/* Day27-- */}
           <Route path="day27" element={<Day27 />} />
-          <Route path="weatherwidget" element={<WeatherWidget/>} />
-          
+          <Route path="weatherwidget" element={<WeatherWidget />} />
+
+          {/* Day28-- */}
+          <Route path="day28" element={<Day28 />} />
 
           <Route path="*" element={<NoPage />} />
         </Routes>

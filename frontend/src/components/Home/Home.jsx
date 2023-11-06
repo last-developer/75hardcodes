@@ -87,6 +87,9 @@ const Home = () => {
         <li>
           <Link to="/day27">Day 27: Custom Weather Widget</Link>
         </li>
+        <li>
+          <Link to="/day28">Day 28: Implementing JWT Authentication Middleware</Link>
+        </li>
       </ul>
     </section>
   )
