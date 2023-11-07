@@ -45,6 +45,11 @@ module.exports = authorizeRole;
                 <p>
                     Stay tuned for Day 30, where we'll dive into building a full-fledged user permissions system that takes advantage of our new middleware!
                 </p>
+                <ul>
+                                        <li>
+                        <a href="https://github.com/last-developer/75hardcodes/blob/master/backend/middlewares/authorizeRole.js" target="_blank" rel="noopener noreferrer">View the Code</a>
+                    </li>
+                </ul>
             </section>
         </>
     );
