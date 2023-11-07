@@ -56,6 +56,7 @@ import Day26 from "./components/Day26/Day26";
 import WeatherWidget from "./components/Day27/WeatherWidget/WeatherWidget";
 import Day27 from "./components/Day27/Day27";
 import Day28 from "./components/Day28/Day28";
+import Day29 from "./components/Day29/Day29";
 
 function App() {
 
@@ -175,6 +176,9 @@ function App() {
 
           {/* Day28-- */}
           <Route path="day28" element={<Day28 />} />
+
+          {/* Day29-- */}
+          <Route path="day29" element={<Day29 />} />
 
           <Route path="*" element={<NoPage />} />
         </Routes>

@@ -90,6 +90,9 @@ const Home = () => {
         <li>
           <Link to="/day28">Day 28: Implementing JWT Authentication Middleware</Link>
         </li>
+        <li>
+          <Link to="/day29">Day 29: Crafting Role-Based Middleware in Node.js</Link>
+        </li>
       </ul>
     </section>
   )
