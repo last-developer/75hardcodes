@@ -93,6 +93,9 @@ const Home = () => {
         <li>
           <Link to="/day29">Day 29: Crafting Role-Based Middleware in Node.js</Link>
         </li>
+        <li>
+          <Link to="/day30">Day 30: Setting Up MongoDB with Node.js</Link>
+        </li>
       </ul>
     </section>
   )

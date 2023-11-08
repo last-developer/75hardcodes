@@ -6,7 +6,7 @@ dotenv.config({ path: '.env' });
 
 // start database
 const connectDatabase = require('./database/database.js')
-// connectDatabase()
+connectDatabase()
 
 const corsOptions = {
     origin: '*'
@@ -20,6 +20,7 @@ const user = require('./routes/userRoute');
 const payment = require('./routes/paymentRoute');
 const product = require('./routes/productRoute');
 
+app.use('/api/user', user)
 app.use('/api/payment', payment)
 app.use('/api/product', product)
 
