@@ -99,6 +99,9 @@ const Home = () => {
         <li>
           <Link to="/day31">Day 31: Advanced Mongoose Schemas and Relationships</Link>
         </li>
+        <li>
+          <Link to="/day32">Day 32: Database Indexing and Schema Design Best Practices</Link>
+        </li>
       </ul>
     </section>
   )
