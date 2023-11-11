@@ -102,6 +102,9 @@ const Home = () => {
         <li>
           <Link to="/day32">Day 32: Database Indexing and Schema Design Best Practices</Link>
         </li>
+        <li>
+          <Link to="/day33">Day 33: Robust Error Handling and Logging</Link>
+        </li>
       </ul>
     </section>
   )
