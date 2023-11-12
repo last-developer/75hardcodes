@@ -55,6 +55,11 @@ describe('GET /api/data', () => {
                 <p>
                     Tomorrow on Day 35, we'll look into Continuous Integration/Continuous Deployment (CI/CD) pipelines to streamline our development process and automate our deployment.
                 </p>
+                <ul>
+                    <li>
+                        <a href="https://github.com/last-developer/75hardcodes/blob/master/backend/app.test.js" target="_blank" rel="noopener noreferrer">View the Code</a>
+                    </li>
+                </ul>
             </section>
         </>
     );
