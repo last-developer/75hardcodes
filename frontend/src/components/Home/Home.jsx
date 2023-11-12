@@ -105,6 +105,9 @@ const Home = () => {
         <li>
           <Link to="/day33">Day 33: Robust Error Handling and Logging</Link>
         </li>
+        <li>
+          <Link to="/day34">Day 34: Automating Tests for a Rock-Solid Application</Link>
+        </li>
       </ul>
     </section>
   )

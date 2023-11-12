@@ -28,6 +28,16 @@ app.get('/', (req, res) => {
     res.send('im fine')
 })
 
+app.get('/api/greet', (req, res) => {
+    res.status(200).json({ message: 'Hello, World!' });
+  });
+  
+  app.post('/api/echo', express.json(), (req, res) => {
+    res.status(200).json({ message: req.body.message });
+  });
+
 const server = app.listen(3000, () => {
     console.log(`server is running on http://localhost:3000`);
 })
+
+module.exports=server;
