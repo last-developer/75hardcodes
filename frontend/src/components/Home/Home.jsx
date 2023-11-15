@@ -111,6 +111,9 @@ const Home = () => {
         <li>
           <Link to="/day35">Day 35: Implementing CI/CD for Streamlined Workflows</Link>
         </li>
+        <li>
+          <Link to="/day36">Day 36: Monitoring and Observability in Application Health</Link>
+        </li>
       </ul>
     </section>
   )

@@ -63,6 +63,7 @@ import Day32 from "./components/Day32/Day32";
 import Day33 from "./components/Day33/Day33";
 import Day34 from "./components/Day34/Day34";
 import Day35 from "./components/Day35/Day35";
+import Day36 from "./components/Day36/Day36";
 
 function App() {
 
@@ -203,6 +204,9 @@ function App() {
 
           {/* Day35-- */}
           <Route path="day35" element={<Day35 />} />
+
+          {/* Day36-- */}
+          <Route path="day36" element={<Day36 />} />
 
           <Route path="*" element={<NoPage />} />
         </Routes>
