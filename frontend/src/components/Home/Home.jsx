@@ -114,6 +114,9 @@ const Home = () => {
         <li>
           <Link to="/day36">Day 36: Monitoring and Observability in Application Health</Link>
         </li>
+        <li>
+          <Link to="/day37">Day 37-75: Expanding Horizons with Next.js and ML/AI</Link>
+        </li>
       </ul>
     </section>
   )

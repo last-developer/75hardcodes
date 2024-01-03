@@ -37,9 +37,6 @@ const Day36 = () => {
                 <p>
                     As we continue to develop and maintain our application, these tools will be invaluable for providing the visibility we need into its behavior and performance.
                 </p>
-                <p>
-                    Join us on Day 37 as we explore containerization with Docker to further enhance our deployment strategies and environment consistency.
-                </p>
             </section>
         </>
     );
